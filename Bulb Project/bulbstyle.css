@@ -1,0 +1,103 @@
+.bulb-background
+{
+    background-color: black ;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+span{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:50px;
+   letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #ff1f8f,
+						20px 20px #000000;
+}
+
+.center {
+    
+    margin: auto;
+    width: 40%;
+    height:50%
+    padding: 10px;
+    }
+
+    .bulb-pos {
+        margin-top: 115px;
+        width: 30%;
+        padding: 10px;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+
+          .button-on {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+          }
+          
+          .button-on:hover {
+            background-color: #4CAF50;
+            color: white;
+          }  
+          .button-off {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #f44336;
+          }
+          
+          .button-off:hover {
+            background-color: #f44336;
+            color: white;
+          }  
+          
+          .btn-pos
+          {
+        
+            width: 30%;
+            padding: 20px;
+          }
+
+          .bn32 {
+            border-color: #ffffff;
+            padding: 0.6em 2.3em;
+            cursor: pointer;
+            font-size: 1em;
+            color: #ffffff;
+            background-image: linear-gradient(45deg, transparent 50%, #000000 50%);
+            background-position: 25%;
+            background-size: 400%;
+            -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+            transition: background 500ms ease-in-out, color 500ms ease-in-out;
+            width:30%;
+            padding:20px;
+          }
+          
+          .bn32:hover {
+            color: #ffffff;
+            background-position: 100%;
+
+
+          }
